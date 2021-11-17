@@ -80,12 +80,12 @@ namespace TicTacToe
             }
             return false;
         }
+
         private bool CheckRows()
         {
             return Win(button1, button2, button3) ||
                 Win(button4, button5, button6) ||
                 Win(button7, button8, button9);
-                
         }
         private bool CheckColumns()
         {
@@ -99,56 +99,15 @@ namespace TicTacToe
                 Win(button3, button5, button7);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Play(sender);
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Play(sender);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Play(sender);
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Play(sender);
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Play(sender);
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            Play(sender);
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            Play(sender);
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            Play(sender);
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            Play(sender);
-        }
+        private void button1_Click(object sender, EventArgs e){ Play(sender); }
+        private void button2_Click(object sender, EventArgs e){ Play(sender); }
+        private void button3_Click(object sender, EventArgs e){ Play(sender); }
+        private void button4_Click(object sender, EventArgs e){ Play(sender); }
+        private void button5_Click(object sender, EventArgs e){ Play(sender); }
+        private void button6_Click(object sender, EventArgs e){ Play(sender); }
+        private void button7_Click(object sender, EventArgs e){ Play(sender); }
+        private void button8_Click(object sender, EventArgs e){ Play(sender); }
+        private void button9_Click(object sender, EventArgs e){ Play(sender); }
 
         private void button10_Click(object sender, EventArgs e)
         {
