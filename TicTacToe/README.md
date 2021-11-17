@@ -1,5 +1,7 @@
 # Tic Tac Toe - game
 
-![IMAGE1](TicTacToe/images/image1.jpg)
-![IMAGE2](TicTacToe/images/image2.jpg)
-![IMAGE3](TicTacToe/images/image3.jpg)
+<p align="center">
+  <img width="300px" src="TicTacToe\images\image1.png" />
+  <img width="300px" src="TicTacToe\images\image2.png" />
+  <img width="300px" src="TicTacToe\images\image3.png" />
+</p>
